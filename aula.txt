@@ -1,0 +1,72 @@
+#include <stdio.h>
+
+int main()
+{
+    int i, cont1, cont2, num;
+  
+    for (i = 1; i<=10; i++){
+     printf("digite um numero");
+     scanf("%d",&num);
+        
+        if( num >=10 && num <=20){
+            cont1++;
+        }
+        else{
+            cont2++;
+        }
+    }
+    printf ("Os numeros nos intervalos são %d\n", cont1);
+    printf ("\nOs numeros que não estão intervalos são %d\n", cont2);
+    
+   
+
+    return 0;
+}
+
+atividade para digitar 10 numeros e mostrar qual estão entre 10 e 20 
+e os que não estão.
+
+int main()
+{
+    int i, cont1, cont2, num;
+  
+  while (i<=66){
+      printf("%d",i);
+      if(i%2 == 0){
+          printf("os numeros pares %d",i);
+      }
+      
+      
+      i++;
+  }
+    
+    return 0;
+}
+imprimir os nunmeros pares de 1 ate 66
+
+int main()
+{
+
+    int i;
+    float nota1, nota2, media;
+    char op;
+    op = 'S';
+  
+  do {
+      
+      printf("digite um sua nota");
+      scanf("%f",&nota1);
+      printf("digite sua segunda nota");
+      scanf("%f",&nota2);
+      
+      media = (nota1 + nota2)/2;
+      
+      printf("sua media é: %0.2f \n", media);
+      printf("quer digitar de novo ? S- sim N-não");
+      scanf("%c",&op);
+} while (op=='S');
+      return 0;
+    }
+usando do while, receba duas notas e dê a media e pergunte se ele quer calcular outra media
+
+
